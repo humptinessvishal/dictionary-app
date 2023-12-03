@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav h1 {
+    width: 70%;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+}
+
+.nav div a {
+    padding-right: 5vw;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.active {
+    color: aliceblue;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbar {
+    width: 50vw;
+    height: 15vh;
+    align-self: center;
+    margin-top: 2vh;
+}
+
+.searchbar input {
+    width: 70%;
+    height: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    outline: none;
+}
+
+.searchbar button {
+    width: 20%;
+    height: 30%;
+    background-color: tomato;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.error {
+    color: black;
+    background-color: red;
+    width: 60vw;
+    align-self: center;
+    font-size: 50px;
+}
+
+.card {
+    width: 80vw;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+}
+
+.card h1,
+p {
+    padding-bottom: 10px;
+}
+
+.word {
+    font-size: 100px;
+    color: coral;
+    text-align: center;
+}
+
+.blank {
+    color: black;
+    background-color: red;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10vh;
+}
+
+li {
+    font-size: 50px;
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+}
